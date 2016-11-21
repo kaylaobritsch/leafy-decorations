@@ -3,10 +3,14 @@ html {
 }
 
 .masthead {
-
+  background-color: #588477;
+  background-image: url("../images/leaf-bg.svg");
+  background-size: 64px auto;
+  background-repeat: repeat;
 }
 
 .logo {
+  color: #fff;
   text-align: center;
 }
 
@@ -15,6 +19,9 @@ html {
 }
 
 .nav a {
+  background-color: #467366;
+  border-radius: 8px;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -23,7 +30,7 @@ html {
 }
 
 .banner {
-
+  background-image: url("../images/banner.jpg");
 }
 
 .banner-content {
