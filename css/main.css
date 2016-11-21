@@ -34,11 +34,14 @@ html {
 }
 
 .banner {
+  color: #fff;
   background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner-content {
-
+  padding-top: 10rem;
 }
 
 @media only screen and (min-width: 60em) {
