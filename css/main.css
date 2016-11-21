@@ -31,25 +31,26 @@ html {
 .nav a:hover {
   background: #fff url("../images/leaf-icon.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   background-size: contain;
   color: #145b1d;
 }
 
 .banner {
   color: #fff;
-  background-image: linear-gradient(-45deg, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg");
+  background-image: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 35%), url("../images/banner.jpg");
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .banner-content {
   background-image: url("../images/two-leaves.svg");
-  background-position: .75em 2em;
+  background-position: .75em 180px;
   background-repeat: no-repeat;
   background-size: 100px;
   border-bottom: 3px solid #467366;
-  padding-top: 8rem;
+  padding-top: 304px;
 }
 
 @media only screen and (min-width: 60em) {
